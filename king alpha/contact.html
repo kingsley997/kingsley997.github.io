@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Alpha Abacus</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="WhatsApp Image 2025-03-08 at 5.34.09 AM.jpeg" alt="Alpha Abacus Logo"></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="franchise.html">Franchise</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container fade-in">
+            <h1>Get in Touch</h1>
+            <p>We're here to answer all your questions about our programs, products, and franchise opportunities.</p>
+        </div>
+    </section>
+
+    <section class="section-with-bg section-bg-contact fade-in-up">
+        <div class="container">
+            <h2 class="light-text">Connect With Us</h2>
+            <div class="contact-layout">
+                <div class="contact-info fade-in-left">
+                    <h3 class="light-text">Contact Information</h3>
+                    <p class="light-text">Feel free to reach out to us through any of the following channels:</p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt contact-icon"></i> <span class="light-text">Kosoa, Accra, Ghana</span></li>
+                        <li><i class="fas fa-phone contact-icon"></i> <span class="light-text">+233 54 598 3544</span></li>
+                        <li><i class="fas fa-envelope contact-icon"></i> <span class="light-text">info@alphaabacus7@gmail.com</span></li>
+                        <li><i class="fas fa-clock contact-icon"></i> <span class="light-text">Mon - Fri: 9:00 AM - 5:00 PM (GMT)</span></li>
+                    </ul>
+                    <h3 class="light-text">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/p/Alpha-Abacus-61559846406086/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        
+                        <a href="https://www.instagram.com/alpha.abacus/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper fade-in-right">
+                    <h3 class="light-text">Send Us a Message</h3>
+                    <form action="#" method="POST" class="contact-form" id="whatsappContactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g., +233 24 123 4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <select id="subject" name="subject">
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Programs">Programs</option>
+                                <option value="Products">Products</option>
+                                <option value="Franchise Opportunity">Franchise Opportunity</option>
+                                <option value="Technical Support">Technical Support</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message:</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div id="whatsappSuccessMessage" class="success-message" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Your message is ready! Please proceed to WhatsApp to send it.</p>
+                        <p>If WhatsApp did not open automatically, you can copy the message and paste it manually:</p>
+                        <button id="copyMessageBtn" class="btn btn-small" style="margin-top: 10px;">Copy Message</button>
+                        <a href="index.html" class="btn btn-small" style="margin-top: 10px;">Return to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section map-section fade-in-up">
+        <div class="container">
+            <h2>Find Us on the Map</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.6277708579294!2d-0.1870196859591325!3d5.603716695917416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a34a813e3b3%3A0x1d5d10d65b7d60f5!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1678912345678!5m2!1sen!2sgh"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <section class="content-section light-bg fade-in-up">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item fade-in-up delay-1">
+                    <h3><i class="fas fa-question-circle"></i>What are your operating hours?</h3>
+                    <p>Our office hours are Monday to Friday, 9:00 AM to 5:00 PM GMT.</p>
+                </div>
+                <div class="faq-item fade-in-up delay-2">
+                    <h3><i class="fas fa-question-circle"></i>How can I enroll my child?</h3>
+                    <p>You can enroll by visiting our programs page and filling out the inquiry form, or by contacting us directly.</p>
+                </div>
+                <div class="faq-item fade-in-up delay-3">
+                    <h3><i class="fas fa-question-circle"></i>Do you offer trial classes?</h3>
+                    <p>Yes, we offer a free trial class for prospective students. Please contact us to schedule one.</p>
+                </div>
+                <div class="faq-item fade-in-up delay-4">
+                    <h3><i class="fas fa-question-circle"></i>What payment methods do you accept?</h3>
+                    <p>We accept bank transfers, mobile money, and major credit cards. Details will be provided upon enrollment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            
+        <div class="footer-bottom">
+            <p>© 2025 Alpha Abacus. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
